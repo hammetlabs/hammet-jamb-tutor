@@ -995,7 +995,13 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        padding: 40px 15px;
+        max-width: 100vw !important;
+        width:100% !important;
+        padding-left: 10px !important
+        padding-right:10px !important;
+        margin: 0 !important;
+        box-sizing: border-box;
+       
     }
 
     .hero-title {
@@ -1012,6 +1018,18 @@ body {
     .pricing-cards {
         grid-template-columns: 1fr;
     }
+
+  .section,
+  .pricing-card,
+  .benefit-card,
+  .feature-card,
+  .comparison-box {
+    width: 100% !important;
+    max-width: 100vw !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box;
+  }
 
     .footer-content {
         grid-template-columns: 1fr;
